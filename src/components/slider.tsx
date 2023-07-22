@@ -40,7 +40,7 @@ export const Slider = () => {
           {data[currentSlide].title}
         </h1>
         <button className='bg-orange-500 text-white rounded-lg px-8 py-4  '>
-          Jetz Bestellen
+          Jetzt Bestellen
         </button>
       </div>
       {/* Image-Container */}
