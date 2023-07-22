@@ -24,7 +24,7 @@ const links = [
   {
     id: 4,
     title: 'Kontakt',
-    url: '/',
+    url: '/contact',
   },
 ];
 

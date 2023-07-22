@@ -1,8 +1,10 @@
 'use client';
 import Image from 'next/image';
 import { CountDown } from './count-down';
+import { useRouter } from 'next/navigation';
 
 export const Offer = () => {
+  const router = useRouter();
   return (
     <div className='flex flex-col md:flex-row bg-slate-950 h-screen text-white md:justify-between md:bg-[url("/images/offerBg.png")] md-h-[70vh]'>
       {/* Text-Container */}
@@ -16,7 +18,10 @@ export const Offer = () => {
           pontifizieren.
         </p>
         <CountDown />
-        <button className='bg-orange-500 rounded-lg py-3 px-6'>
+        <button
+          className='bg-orange-500 rounded-lg py-3 px-6'
+          onClick={() => router.push('/orders')}
+        >
           Jetzt bestellen
         </button>
       </div>
