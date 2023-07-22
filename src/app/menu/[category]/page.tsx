@@ -8,7 +8,7 @@ const CategoryPage = () => {
         return (
           <Link
             key={pizza.id}
-            href={`product/${pizza.id}`}
+            href={`/product/${pizza.id}`}
             className=' w-full h-[60vh] border-r-2 border-b-2 border-orange-500 sm:w-1/2 lg:w-1/3 p-4 flex flex-col justify-between group even:bg-orange-50'
           >
             {pizza.img && (

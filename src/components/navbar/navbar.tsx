@@ -11,8 +11,8 @@ export const Navbar = () => {
       {/* Left Links */}
       <div className='hidden md:flex gap-4 flex-1'>
         <Link href={'/'}>Startseite</Link>
-        <Link href={'/'}>Menu</Link>
-        <Link href={'/'}>Kontakt</Link>
+        <Link href={'/menu'}>Menu</Link>
+        <Link href={'/contact'}>Kontakt</Link>
       </div>
       {/* LOGO */}
       <div className='text-xl font-semibold flex-1 md:text-center'>
